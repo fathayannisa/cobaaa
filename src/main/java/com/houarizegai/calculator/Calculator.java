@@ -259,7 +259,8 @@ public class Calculator {
                     } else {
                         inText.setText(String.valueOf(val));
                     }
-
+                        inText.setText(String.valueOf(val));
+                        
                     opt = '-';
                     go = false;
                     addWrite = false;
