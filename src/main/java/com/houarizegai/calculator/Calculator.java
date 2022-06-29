@@ -260,13 +260,18 @@ public class Calculator {
                         inText.setText(String.valueOf(val));
                     }
                         inText.setText(String.valueOf(val));
-                        
+                        inText.setText(String.valueOf(val));
+                        inText.setText(String.valueOf(val));
+                        inText.setText(String.valueOf(val));
+
                     opt = '-';
                     go = false;
                     addWrite = false;
                 } else {
                     opt = '-';
                 }
+
+                inText.setText(String.valueOf(val));
         });
 
         btn1 = initBtn("1", x[0], y[4], event -> {
