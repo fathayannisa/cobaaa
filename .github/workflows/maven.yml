@@ -27,5 +27,5 @@ jobs:
     - name: Build and analyze
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COBA_TOKEN: ${{ secrets.COBA_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=fathayannisa-1 -Dsonar.projectKey=fathayannisa_cobaaa
