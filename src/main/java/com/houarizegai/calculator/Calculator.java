@@ -259,19 +259,14 @@ public class Calculator {
                     } else {
                         inText.setText(String.valueOf(val));
                     }
-                        inText.setText(String.valueOf(val));
-                        inText.setText(String.valueOf(val));
-                        inText.setText(String.valueOf(val));
-                        inText.setText(String.valueOf(val));
-
+                        
                     opt = '-';
-                    go = false;
-                    addWrite = false;
+                    go = true;
+                    addWrite = true;
+                    System.out.println(x);
                 } else {
                     opt = '-';
                 }
-
-                inText.setText(String.valueOf(val));
         });
 
         btn1 = initBtn("1", x[0], y[4], event -> {
